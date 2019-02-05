@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+button {
+    color: white;
+    background-color: steelblue;
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.error-message {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    display: inline-block;
+}
+
+.results-title {
+    font-weight: 800;
+}
